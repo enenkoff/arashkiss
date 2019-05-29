@@ -1,2 +1,0 @@
-# arashkiss
-base of candidates
