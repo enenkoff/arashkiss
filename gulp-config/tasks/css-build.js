@@ -29,5 +29,6 @@ module.exports = function (gulp, plugins, path_src, path_dest) {
             .pipe(plugins.sourcemaps.write())
             .pipe(plugins.rename({suffix: '.min'}))
             .pipe(gulp.dest(path_dest))
+            .pipe(browserSync.reload({ stream: true }))
             .pipe(plugins.notify( 'Готово!' ) );
 };

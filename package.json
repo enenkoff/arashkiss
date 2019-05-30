@@ -22,6 +22,7 @@
     "babel-loader": "^7.1.2",
     "babel-preset-env": "^1.6.0",
     "babel-preset-stage-3": "^6.24.1",
+    "browser-sync": "^2.26.5",
     "cross-env": "^5.0.5",
     "css-loader": "^0.28.7",
     "css-mqpacker": "^7.0.0",
@@ -37,9 +38,10 @@
     "gulp-sourcemaps": "^2.6.5",
     "gulp-watch": "^5.0.1",
     "stylefmt": "^6.0.3",
-    "vue-loader": "^13.0.5",
+    "vue-loader": "14.2.2",
     "vue-template-compiler": "^2.4.4",
     "webpack": "^3.6.0",
-    "webpack-dev-server": "^2.9.1"
+    "webpack-dev-server": "^2.9.1",
+    "webpack-stream": "^5.2.1"
   }
 }

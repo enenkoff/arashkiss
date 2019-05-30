@@ -2,86 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3a89b5a6-20c6-451a-ae4e-fb73cdc00888" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.eslintignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.eslintrc.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulp-config/path-config.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulp-config/tasks-config.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/gulp-config/tasks/browser-sync.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulp-config/tasks/clean.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulp-config/tasks/copy.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulp-config/tasks/css-build.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulp-config/tasks/html-build.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulp-config/tasks/img-optimize.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulp-config/tasks/js-rigger.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulp-config/tasks/svg-inject.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulp-config/tasks/svg-sprite.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulp-config/tasks/watch.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulp-config/tasks/webpack.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulpfile.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/prettier.config.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/_code/pages/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/_code/templates/footer.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/_code/templates/head.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/_code/templates/header.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/_code/templates/scripts.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/test-image.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/js/modules/burger.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/js/partials/functions.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/js/partials/imports.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/js/partials/main.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/js/partials/scripts.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/js/partials/variables.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/js/vendor/detect.ie.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/js/vendor/device.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/js/vendor/svgxuse.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/js/vendor/touchOrMouse.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/js/vue/app.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/js/vue/components/App.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/js/vue/components/layout/Footer.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/js/vue/components/layout/Header.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sass/abstracts/_classes.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sass/abstracts/_extends.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sass/abstracts/_general.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sass/abstracts/_mixins.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sass/abstracts/_variables.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sass/base/_base.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sass/base/_normalize.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sass/base/_placeholders.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sass/base/_typography.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sass/components/_components.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sass/components/_text-box.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sass/custom-carousel.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sass/elements/_breadcrumbs.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sass/elements/_elements.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sass/elements/_pagination.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sass/layout/_footer.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sass/layout/_header.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sass/layout/_layout.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sass/layout/_main.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sass/layout/_nav.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sass/pages/_all-pages.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sass/pages/_blog.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sass/patterns/_buttons.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sass/patterns/_icons.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sass/patterns/_patterns.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sass/patterns/_titles.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sass/patterns/forms/_forms.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sass/patterns/forms/_input-text.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sass/styles.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sass/vendors/jquery-ui-datepicker.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sass/vendors/owl.carousel.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sass/vendors/select2.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sass/widgets/_custom-carousel.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/svg/partials/logo.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/svg/sprite-svg.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/svg/sprite/icon-search.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stylefmt.config.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulp-config/path-config.js" beforeDir="false" afterPath="$PROJECT_DIR$/gulp-config/path-config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulp-config/tasks-config.js" beforeDir="false" afterPath="$PROJECT_DIR$/gulp-config/tasks-config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulp-config/tasks/css-build.js" beforeDir="false" afterPath="$PROJECT_DIR$/gulp-config/tasks/css-build.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulp-config/tasks/webpack.js" beforeDir="false" afterPath="$PROJECT_DIR$/gulp-config/tasks/webpack.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulpfile.js" beforeDir="false" afterPath="$PROJECT_DIR$/gulpfile.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/css/styles.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/css/styles.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webpack.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/webpack.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
-    <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -101,72 +36,155 @@
     <expand />
     <select />
   </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="-1597998475">
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="html" value="1" />
+          <entry key="js" value="10" />
+          <entry key="scss" value="2" />
+          <entry key="vue" value="3" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="HTML" value="1" />
+          <entry key="JavaScript" value="10" />
+          <entry key="SCSS" value="2" />
+          <entry key="Vue.js" value="3" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="html" value="2" />
+          <entry key="js" value="158" />
+          <entry key="vue" value="52" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="HTML" value="2" />
+          <entry key="JavaScript" value="158" />
+          <entry key="Vue.js" value="52" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="app.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/js/vue/app.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="7" selection-start-column="7" selection-end-column="7" />
-              <folding>
-                <element signature="e#0#21#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="copy.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/gulp-config/tasks/copy.js">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file leaf-file-name="tasks-config.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/gulp-config/tasks-config.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="15" column="7" selection-start-line="15" selection-start-column="7" selection-end-line="15" selection-end-column="7" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="App.vue" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/js/vue/components/App.vue">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="133">
-              <caret line="7" column="37" selection-start-line="7" selection-start-column="37" selection-end-line="7" selection-end-column="37" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Footer.vue" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/js/vue/components/layout/Footer.vue">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file leaf-file-name="html-build.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/gulp-config/tasks/html-build.js">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file leaf-file-name="path-config.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/gulp-config/path-config.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="684">
-              <caret line="36" column="17" selection-start-line="36" selection-start-column="17" selection-end-line="36" selection-end-column="17" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/_code/pages/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="228">
-              <caret line="12" column="28" selection-start-line="12" selection-start-column="28" selection-end-line="12" selection-end-column="28" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <splitter split-orientation="horizontal" split-proportion="0.4146497">
+      <split-first>
+        <leaf>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/package.json">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="340">
+                  <caret line="41" column="25" selection-start-line="41" selection-start-column="25" selection-end-line="41" selection-end-column="25" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/webpack.config.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state>
+                  <caret column="26" selection-start-column="4" selection-end-column="26" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/src/components/layout/Header.vue">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="68">
+                  <caret line="4" column="30" selection-start-line="4" selection-start-column="30" selection-end-line="4" selection-end-column="30" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/index.html">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="68">
+                  <caret line="4" column="74" lean-forward="true" selection-start-line="4" selection-start-column="74" selection-end-line="4" selection-end-column="74" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-first>
+      <split-second>
+        <leaf>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/styles/sass/layout/_header.scss">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="136">
+                  <caret line="8" column="14" selection-start-line="8" selection-start-column="14" selection-end-line="8" selection-end-column="14" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/gulp-config/tasks/css-build.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="238">
+                  <caret line="14" selection-start-line="14" selection-end-line="14" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/gulp-config/tasks/webpack.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="340">
+                  <caret line="20" column="38" lean-forward="true" selection-start-line="20" selection-start-column="38" selection-end-line="20" selection-end-column="38" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/main.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state>
+                  <folding>
+                    <element signature="e#0#21#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/gulp-config/tasks-config.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="339">
+                  <caret line="37" column="37" selection-start-line="37" selection-start-column="37" selection-end-line="37" selection-end-column="37" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/gulp-config/path-config.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="204">
+                  <caret line="12" column="26" selection-start-line="12" selection-start-column="26" selection-end-line="12" selection-end-column="26" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/gulp-config/tasks/watch.js">
+              <provider selected="true" editor-type-id="text-editor" />
+            </entry>
+          </file>
+        </leaf>
+      </split-second>
+    </splitter>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -174,12 +192,20 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/src/js/app/components/App.vue" />
         <option value="$PROJECT_DIR$/package.json" />
-        <option value="$PROJECT_DIR$/gulp-config/tasks-config.js" />
-        <option value="$PROJECT_DIR$/gulp-config/path-config.js" />
         <option value="$PROJECT_DIR$/src/_code/pages/index.html" />
+        <option value="$PROJECT_DIR$/src/styles/sass/layout/_header.scss" />
+        <option value="$PROJECT_DIR$/src/App.vue" />
+        <option value="$PROJECT_DIR$/webpack.config.js" />
+        <option value="$PROJECT_DIR$/gulp-config/tasks/browser-sync.js" />
+        <option value="$PROJECT_DIR$/gulp-config/tasks/css-build.js" />
+        <option value="$PROJECT_DIR$/gulpfile.js" />
+        <option value="$PROJECT_DIR$/gulp-config/tasks/webpack.js" />
+        <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/gulp-config/path-config.js" />
+        <option value="$PROJECT_DIR$/gulp-config/tasks-config.js" />
+        <option value="$PROJECT_DIR$/src/components/layout/Header.vue" />
       </list>
     </option>
   </component>
@@ -216,6 +242,49 @@
               <item name="arashkiss" type="b2602c69:ProjectViewProjectNode" />
               <item name="arashkiss" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="arashkiss" type="b2602c69:ProjectViewProjectNode" />
+              <item name="arashkiss" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="arashkiss" type="b2602c69:ProjectViewProjectNode" />
+              <item name="arashkiss" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="arashkiss" type="b2602c69:ProjectViewProjectNode" />
+              <item name="arashkiss" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
+              <item name="css" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="arashkiss" type="b2602c69:ProjectViewProjectNode" />
+              <item name="arashkiss" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="arashkiss" type="b2602c69:ProjectViewProjectNode" />
+              <item name="arashkiss" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+              <item name="layout" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="arashkiss" type="b2602c69:ProjectViewProjectNode" />
+              <item name="arashkiss" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="images" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="arashkiss" type="b2602c69:ProjectViewProjectNode" />
+              <item name="arashkiss" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="styles" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -235,6 +304,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\stormfiles\arashkiss\src\images" />
       <recent name="F:\StormFiles\arashkiss" />
       <recent name="F:\StormFiles\arashkiss\src\js\app\components" />
       <recent name="F:\StormFiles\arashkiss\src\js\app" />
@@ -268,159 +338,150 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6071000" />
+    <option name="totallyTimeSpent" value="15619000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="3832" y="-8" width="1936" height="1056" extended-state="6" />
     <layout>
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
-      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="File Transfer" order="7" weight="0.28156424" />
-      <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.31173185" />
-      <window_info anchor="right" id="Remote Host" order="3" visible="true" weight="0.18017058" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.195629" />
-      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="right" id="Database" order="3" weight="0.32995737" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16311301" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Terminal" order="9" visible="true" weight="0.38042268" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="11" />
+      <window_info anchor="bottom" id="File Transfer" order="12" weight="0.28156424" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Remote Host" order="3" visible="true" weight="0.18017058" />
+      <window_info anchor="right" id="Database" order="4" weight="0.32995737" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
-    <option name="exactExcludedFiles">
-      <list>
-        <option value="$PROJECT_DIR$/node_modules/gulp-html-tag-include/references.all.js" />
-        <option value="$PROJECT_DIR$/node_modules/gulp-html-tag-include/index.js" />
-      </list>
-    </option>
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/js/vue/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="7" selection-start-column="7" selection-end-column="7" />
-          <folding>
-            <element signature="e#0#21#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gulp-config/tasks/copy.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gulp-config/tasks-config.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="15" column="7" selection-start-line="15" selection-start-column="7" selection-end-line="15" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/js/vue/components/App.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="7" column="37" selection-start-line="7" selection-start-column="37" selection-end-line="7" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/js/vue/components/layout/Footer.vue">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gulp-config/tasks/html-build.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gulp-config/path-config.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="684">
-          <caret line="36" column="17" selection-start-line="36" selection-start-column="17" selection-end-line="36" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/_code/pages/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="12" column="28" selection-start-line="12" selection-start-column="28" selection-end-line="12" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/index.php" />
-    <entry file="file://$PROJECT_DIR$/src/js/vue/components/layout/Footer.vue">
+    <entry file="file://$PROJECT_DIR$/src/js/vue/components/layout/Footer.vue" />
+    <entry file="file://$PROJECT_DIR$/src/js/vue/components/App.vue" />
+    <entry file="file://$PROJECT_DIR$/src/js/vue/app.js" />
+    <entry file="file://$PROJECT_DIR$/gulp-config/tasks/clean.js" />
+    <entry file="file://$PROJECT_DIR$/gulp-config/tasks/copy.js" />
+    <entry file="file://$PROJECT_DIR$/.eslintignore" />
+    <entry file="file://$PROJECT_DIR$/gulp-config/tasks/html-build.js" />
+    <entry file="file://$PROJECT_DIR$/src/_code/pages/index.html" />
+    <entry file="file://$PROJECT_DIR$/gulp-config/tasks/watch.js">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/js/vue/components/App.vue">
+    <entry file="file://$PROJECT_DIR$/src/styles/sass/layout/_header.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="7" column="37" selection-start-line="7" selection-start-column="37" selection-end-line="7" selection-end-column="37" />
+        <state relative-caret-position="136">
+          <caret line="8" column="14" selection-start-line="8" selection-start-column="14" selection-end-line="8" selection-end-column="14" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/js/vue/app.js">
+    <entry file="file://$PROJECT_DIR$/src/App.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="63" selection-start-line="5" selection-start-column="63" selection-end-line="5" selection-end-column="63" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gulp-config/tasks/css-build.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gulpfile.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="45" selection-start-line="7" selection-start-column="45" selection-end-line="7" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gulp-config/tasks/browser-sync.js">
       <provider selected="true" editor-type-id="text-editor">
         <state>
-          <caret column="7" selection-start-column="7" selection-end-column="7" />
-          <folding>
-            <element signature="e#0#21#0" expanded="true" />
-          </folding>
+          <caret column="64" selection-start-column="64" selection-end-column="64" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/vue-loader/lib/loader.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="177">
+          <caret line="60" column="17" selection-start-line="60" selection-start-column="17" selection-end-line="60" selection-end-column="17" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/package.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-835">
-          <caret line="1" column="20" selection-start-line="1" selection-start-column="20" selection-end-line="1" selection-end-column="20" />
+        <state relative-caret-position="340">
+          <caret line="41" column="25" selection-start-line="41" selection-start-column="25" selection-end-line="41" selection-end-column="25" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/gulp-config/tasks/clean.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gulp-config/tasks/copy.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.eslintignore">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gulp-config/tasks-config.js">
+    <entry file="file://$PROJECT_DIR$/webpack.config.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="15" column="7" selection-start-line="15" selection-start-column="7" selection-end-line="15" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gulp-config/tasks/html-build.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gulp-config/path-config.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="684">
-          <caret line="36" column="17" selection-start-line="36" selection-start-column="17" selection-end-line="36" selection-end-column="17" />
+        <state>
+          <caret column="26" selection-start-column="4" selection-end-column="26" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="600">
-          <caret line="63" column="67" selection-start-line="63" selection-start-column="67" selection-end-line="63" selection-end-column="67" />
+        <state relative-caret-position="68">
+          <caret line="4" column="74" lean-forward="true" selection-start-line="4" selection-start-column="74" selection-end-line="4" selection-end-column="74" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/_code/pages/index.html">
+    <entry file="file://$PROJECT_DIR$/gulp-config/tasks/webpack.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="12" column="28" selection-start-line="12" selection-start-column="28" selection-end-line="12" selection-end-column="28" />
+        <state relative-caret-position="340">
+          <caret line="20" column="38" lean-forward="true" selection-start-line="20" selection-start-column="38" selection-end-line="20" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#21#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gulp-config/path-config.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="26" selection-start-line="12" selection-start-column="26" selection-end-line="12" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gulp-config/tasks-config.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="339">
+          <caret line="37" column="37" selection-start-line="37" selection-start-column="37" selection-end-line="37" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/layout/Header.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="30" selection-start-line="4" selection-start-column="30" selection-end-line="4" selection-end-column="30" />
         </state>
       </provider>
     </entry>

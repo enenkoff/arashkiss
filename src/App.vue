@@ -3,7 +3,7 @@
     <div class="container">
       <site-header/>
       <main id="main" class="main">
-
+        <img src="https://picsum.photos/id/237/200/300" alt="">
       </main>
     </div>
   </div>
