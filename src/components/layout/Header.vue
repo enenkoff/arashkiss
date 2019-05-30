@@ -1,9 +1,14 @@
 <template>
   <header id="header" class="header">
-    <ul>
-      <li><a href="#">Кандидаты</a></li>
-      <li><a href="#">Добавить</a></li>
-    </ul>
+    <div class="content">
+      <nav id="nav" class="nav">
+        <ul>
+          <li><a href="#">Кандидаты</a></li>
+          <li><a href="#">Добавить</a></li>
+        </ul>
+        <div class="search"></div>
+      </nav>
+    </div>
   </header>
 </template>
 
