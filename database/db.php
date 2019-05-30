@@ -1,7 +1,7 @@
 <?php
 
 //подключение к БД
-$db = mysqli_connect('localhost','chenenk4672','8h5Br8Km', 'arashkiss');
+$db = mysqli_connect('localhost','chenenk4672','8h5Br8Km', 'chenenk4672');
 
 //используем БД для настройки кодировки
 mysqli_query($db,"set_client='utf8'");

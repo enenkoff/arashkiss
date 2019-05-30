@@ -7,4 +7,20 @@
   background-color: #00ffc1;
   //background-color: red;
   z-index: 50;
+  display: flex;
+  align-items: center;
+  height: 60px;
+  width: 100%;
+  .nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    ul {
+      display: flex;
+      align-items: center;
+    }
+    li {
+      margin-right: 15px;
+    }
+  }
 }
