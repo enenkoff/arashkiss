@@ -1,9 +1,11 @@
 module.exports = {
     build: {
-        css: 'src/assets/css/' /* path to ready css */,
+        root: './' /* root path */,
+        css: 'dist/' /* path to ready css */,
         js: 'dist/' /* path to ready js */,
     },
     src: {
+        root: './' /* root path */,
         common: 'src/' /* path to source folder */,
         js: 'src/js/' /* path to source js folder */,
         sass: 'src/styles/sass/**/*.+(sass|scss)' /* path to source sass files */,
