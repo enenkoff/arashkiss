@@ -4,7 +4,7 @@
       <nav id="nav" class="nav">
         <ul>
           <li><a href="/">Кандидаты</a></li>
-          <li><a href="/add-user">Добавить</a></li>
+          <li><a href="/add">Добавить</a></li>
         </ul>
         <div class="search"></div>
       </nav>

@@ -3,7 +3,8 @@
     <div class="container">
       <site-header/>
       <main id="main" class="main">
-        <listing></listing>
+        <!--<listing></listing>-->
+        <router-view/>
       </main>
     </div>
   </div>
@@ -11,8 +12,10 @@
 
 <script>
 
-  import SiteHeader from './components/layout/Header'
-  import Listing from './components/pages/Listing'
+import SiteHeader from './components/layout/Header'
+
+import listing from './components/pages/Listing'
+import addUser from './components/pages/AddUser'
 
 export default {
   name: 'app',
@@ -23,7 +26,8 @@ export default {
   },
     components: {
         SiteHeader,
-        Listing,
+        listing,
+        addUser
     }
 }
 </script>
