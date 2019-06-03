@@ -9,6 +9,12 @@ module.exports = function(gulp, plugins) {
         return getTask('browser-sync', PATH_CONFIG.browser, PATH_CONFIG.port);
     });
 
+    /* php:compile ------------------------------------- */
+
+    gulp.task('php', () => {
+        return getTask('php-build', PATH_CONFIG.src.root, PATH_CONFIG.build.root);
+    });
+
     /* js:compile ------------------------------------- */
 
     gulp.task('webpack', () => {
@@ -35,7 +41,7 @@ module.exports = function(gulp, plugins) {
         gulp.parallel('webpack', () => {
             return getTask(
                 'watch',
-                PATH_CONFIG.watch.vue,
+                [PATH_CONFIG.watch.vue, PATH_CONFIG.watch.js],
                 'webpack',
             );
         }),
@@ -50,7 +56,7 @@ module.exports = function(gulp, plugins) {
                 'browser:sync',
                 () => {
                     getTask('watch', PATH_CONFIG.watch.style, 'css:build');
-                    getTask('watch', PATH_CONFIG.watch.vue, 'webpack');
+                    getTask('watch', [PATH_CONFIG.watch.vue, PATH_CONFIG.watch.js], 'webpack');
                 },
             ),
         ),
